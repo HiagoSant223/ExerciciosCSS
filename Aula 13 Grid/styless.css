@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container .container-filho {
+    width: 40px;
+    height: 40px;
+    background-color: lightblue;
+    color: darkblue;
+    font-size: 20px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    border: 2px solid red;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .filho {
+    width: 100px;
+    height: 100px;
+    border: 2px black;
+    display: flex;
+    justify-content: center;   
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.filho1 {
+	background-color: blue;
+	order: 1;
+}
+
+.filho2 {
+	background-color: green;
+	order: 2;
+}
+
+.filho3 {
+	background-color: yellow;
+	order: 3;
+}
+
+.filho4 {
+	background-color: orange;
+	order: 4;
+}
+
+.filho5 {
+	background-color: purple;
+	order: 5;
+}
