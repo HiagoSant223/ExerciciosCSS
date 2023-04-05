@@ -1,0 +1,27 @@
+@media screen and (max-width: 480px) {
+    .gridContainer {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 100px 1fr auto 200px 200px;
+        grid-gap: 40px;
+        grid-template-areas: "header header" "navEsq navDir" ;
+    }
+}
+
+header {
+    grid-area: header;
+    display: flex;
+    justify-content: center;
+}
+
+headerimg {
+    height: 100px;
+}
+
+.navEsq {
+    grid-area: navEsq;
+}
+
+.navDir {
+    grid-area: navDir;
+}
